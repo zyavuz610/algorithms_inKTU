@@ -6,6 +6,7 @@ Bu proje Prof. Dr. Vasif Vagifoğlu NABİYEV'in "Teoriden Uygulamalara ALGORİTM
 
 ## Bölüm 02 - Temeller
 * Recursive - Öz Yinelemeli Algoritmalar
-** Toplam
+
+## Bölüm 06 - Graf Algoritmaları
 
 
