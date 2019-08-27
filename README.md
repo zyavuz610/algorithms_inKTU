@@ -4,6 +4,8 @@ Bu proje Prof. Dr. Vasif Vagifoğlu NABİYEV'in "Teoriden Uygulamalara ALGORİTM
 
 Bölüm numaraları ve algoritma isimleri kitapta bahsedildiği gibidir.
 
+![Algoritmalar Logo](/images/algoritmalar.jpg)
+
 # İçindekiler
 
 ## Bölüm 02 - Temeller
