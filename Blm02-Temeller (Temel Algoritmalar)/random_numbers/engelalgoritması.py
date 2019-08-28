@@ -1,19 +1,22 @@
 import math
+import time
 import matplotlib.pyplot as plt
 import numpy as np
 fig_size = [19.2,10.8]
 plt.figure(figsize=fig_size)
 arr = []
 h = 2
-a = math.pi/10
+K = 10000000
+a = time.time() % 1
+print(a)
 z = 60000
 if(z > 0 and a < 1 and a > 0):
     g = 0
     while(g < z):
         a = pow((a + math.pi),8)
         a = a - int(a)
-        print(a)
-        arr.append(int(a*10000000 % h))
+        #print(a)
+        arr.append(int(a*K % h))
         g+=1
 elif (z <= 0):
     print("Üretilecek sayı 1 ve ya daha büyük olmalıdır")
