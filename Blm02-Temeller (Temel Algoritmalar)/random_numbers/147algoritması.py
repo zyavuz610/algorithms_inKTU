@@ -1,18 +1,17 @@
 import sys
 import matplotlib.pyplot as plt
 import numpy as np
+import time
 fig_size = [19.2,10.8]
 plt.figure(figsize=fig_size)
 arr = []
-q = 3.1415929
+K = 10000000
+q = time.time()%10
+print(q)
 a = 60000
 eb = 2
-if(int(q*10000000)%5==0):
-    print("the last number should not be 5")
-    sys.exit(1)
-elif(int(q*10000000)%2==0):
-    print("the last number should not be double. ")
-    sys.exit(1)
+if(int(q*K)%5==0 and int(q*K)%2==0):
+    q+=1
 else:
     if(a>=1):
         c = 0
@@ -20,8 +19,8 @@ else:
             q = q*147
             q = q % 1
             c+=1
-            print("%1.7f"%(q))
-            arr.append(int(q*1000000 % eb))
+            #print("%1.7f"%(q))
+            arr.append(int(q*K % eb))
     else:
         print("the number should  be positive number. ")
 print("sayılar: \n")
