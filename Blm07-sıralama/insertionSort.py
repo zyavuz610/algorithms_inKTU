@@ -17,7 +17,25 @@ def insertionSort(array):
             j -= 1
         array[j + 1] = key
 
+# seren
+def binary_insertion_sort(array):
+    for i in range(1,len(array)):
+        x=array[i]
+        left=0
+        right= i-1
+        while left <= right:
+            pivot=(left + right)//2
+            if x < array[pivot]:
+                right=pivot-1
+            else:
+                left=pivot+1
 
+        for j in reversed(range(left, i)):
+          array[(j+1)]= array[j]
+
+        array[left]=x
+
+        
 array = [12, 11, 13, 5, 6, 8, 97, 57, 22]
 insertionSort(array)
 print(array)
