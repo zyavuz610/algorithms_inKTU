@@ -1,0 +1,37 @@
+import sys
+import math
+def getradix(number,radix):
+    return int((number>>radix)&0x01)
+def exchange(alt,üst,basamak,b):
+    if(üst > alt and basamak >= 0):
+        alts=alt
+        üsts=üst
+        kontrol2 = 1
+        while alts < üsts:
+           while getradix(b[alts],basamak)==0 and alts <üsts:
+               alts+=1
+           while getradix(b[üsts],basamak)==1 and alts <üsts:
+               üsts-=1
+           üsts -= alts
+           alts += üsts
+           üsts = alts - üsts
+        if(getradix(b[üst],basamak)==0):
+            üsts+=1
+        exchange(alt, üsts - 1, basamak - 1, b)
+        exchange(alts, üst, basamak - 1, b)
+def radixexchangesort(maxdd,b):
+    max = maxdd
+    exchange(0,len(b)-1,math.log(2,max)+1,b)
+
+n = int(input())
+if (n<0):
+    print("Error array size must positive number")
+    sys.exit(1)
+b = []
+for _ in range(n):
+    x = float(input())
+    b.append(x)
+print(b)
+maxdd = int(input())
+radixexchangesort(maxdd,b)
+print(b)
