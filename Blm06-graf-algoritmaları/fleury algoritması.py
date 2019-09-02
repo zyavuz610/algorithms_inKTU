@@ -1,4 +1,5 @@
 # Bu kod KTÜ Bilgisayar Mühendisliği Bölümü'nde staj yapan öğrenciler tarafından hazırlanmıştır.
+# Amaç: Her bir kenardan bir kez geçerek grafın tamamını dolaşmak
 # Yazar[lar]: Nuh Aslan , Beytullah Bilek
 # Youtube : 
 
