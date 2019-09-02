@@ -11,13 +11,13 @@ Bölüm numaraları ve algoritma isimleri kitapta bahsedildiği gibidir.
 ## Bölüm 02 - Temeller
 * [Recursive - Öz Yinelemeli Algoritmalar](https://github.com/zyavuz610/algorithms_inKTU/tree/master/Blm02-Temeller%20(Temel%20Algoritmalar)/recursion)
   * [Faktöryel](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm02-Temeller%20(Temel%20Algoritmalar)/recursion/Factorial.py)
-  * Fibonacci, İteratif Fibonacci
-  * Alt Küme
-  * Dizi Uzunluğu
-  * Hamming
-  * Hanoi Kuleleri
-  * Üs Alma (power)
-  * Toplam
+  * [Fibonacci](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm02-Temeller%20(Temel%20Algoritmalar)/recursion/Fibonacci.py), [İteratif Fibonacci](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm02-Temeller%20(Temel%20Algoritmalar)/recursion/fibonacci-iterative.py)
+  * [Alt Küme](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm02-Temeller%20(Temel%20Algoritmalar)/recursion/alt_kume.py)
+  * [Dizi Uzunluğu](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm02-Temeller%20(Temel%20Algoritmalar)/recursion/dizi_uzunlugu.py)
+  * [Hamming](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm02-Temeller%20(Temel%20Algoritmalar)/recursion/hamming.py)
+  * [Hanoi Kuleleri](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm02-Temeller%20(Temel%20Algoritmalar)/recursion/hanoi.py)
+  * [Üs Alma (power)](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm02-Temeller%20(Temel%20Algoritmalar)/recursion/power.py)
+  * [Toplam](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm02-Temeller%20(Temel%20Algoritmalar)/recursion/toplam.py)
 
 ## Bölüm 06 - Graf Algoritmaları
 
