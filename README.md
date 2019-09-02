@@ -31,7 +31,7 @@ Bölüm numaraları ve algoritma isimleri kitapta bahsedildiği gibidir.
 * [Enine Arama](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm06-graf-algoritmalar%C4%B1/enine%20arama.py)
 * [Fluery Algoritması-Euler Yolları](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm06-graf-algoritmalar%C4%B1/fleury%20algoritmas%C4%B1.py)
 * [Çinli Postacı Problemi](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm06-graf-algoritmalar%C4%B1/%C3%87inli%20Postac%C4%B1%20Problemi.py)
-* [Dijkstra (minimum yol) Algoritması] (https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm06-graf-algoritmalar%C4%B1/Dijkstra%20(minimum%20yol)%20Algoritmas%C4%B1.py)
+* [Dijkstra - minimum yol - Algoritması](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm06-graf-algoritmalar%C4%B1/Dijkstra%20(minimum%20yol)%20Algoritmas%C4%B1.py)
 
 ## Bölüm 07 - Sıralama Algoritmları
 
