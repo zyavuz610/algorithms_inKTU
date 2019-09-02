@@ -1,84 +1,73 @@
-# Fleury Algoritması
+# Çin Postacı Problemi
+# Tüm yolları dolaşacak yolun bulunması
 # Bu kod KTÜ Bilgisayar Mühendisliği Bölümü'nde staj yapan öğrenciler tarafından hazırlanmıştır.
 # Yazar[lar]: Nuh Aslan , Beytullah Bilek
-# Youtube : 
 
 
 graph = {
-    'A' : ['B','F'],
-    'B' : ['A','C','D','F'],
-    'C' : ['B','D'],
-    'D' : ['B','C','E','F'],
-    'E' : ['D','F'],
-    'F' : ['A','B','D','E']
+    '1' : ['2','5'],
+    '2' : ['3'],
+    '3' : ['4'],
+    '4' : ['1'],
+    '5' : ['6'],
+    '6' : ['7'],
+    '7' : ['8'],
+    '8' : ['5']
+
 }
 
+d=len(graph)
 
-def addEdge( u, v):
-    graph[u].append(v)
-    graph[v].append(u)
 def rmvEdge(u, v):
     for i, k in enumerate(graph[u]):
         if k == v:
             graph[u].pop(i)
-    for i, k in enumerate(graph[v]):
-        if k == u:
-            graph[v].pop(i)
-def DFSCount(v, visited):
-
-    dizi = list(graph.keys())
-    a = dizi.index(v)
 
 
-    count = 1
-    visited[a] = True
-
-    for i in graph[v]:
-        a = dizi.index(i)
-
-        if visited[a] == False:
-            count = count + DFSCount(i, visited)
-
-    return count
-
-def isValidNextEdge(u, v):
-
-    V=len(graph)
-
-
-    if len(graph[u]) == 1:
-        return True
-    else:
-
-        visited = [False] * (V)
-        count1 = DFSCount(u, visited)
-
-        rmvEdge(u, v)
-        visited = [False] * (V)
-        count2 = DFSCount(u, visited)
-
-
-        addEdge(u, v)
-
-        return False if count1 > count2 else True
-def printEulerUtil(u):
-
+def printresult(u):
     for v in graph[u]:
-        if isValidNextEdge(u,v):
-            print(u,v)
-            rmvEdge(u,v)
-            printEulerUtil(v)
+        print(u,v)
+        rmvEdge(u,v)
+        printresult(v)
 
-def printEulerTour():
-    u = 'C'
+twin=False
 
-    for i in graph:
+node_path=[] # key'lerin çıkan ok sayısı array5
+path_to_the_node=[] # keylere gelen ok sayısı
+valuelist=[] # values kısmının listeye atılmış hali
 
-        if len(graph[i]) % 2 != 0:
-            u = i
-            break
+keylist=list(graph.keys()) 
 
-    print("\n")
-    printEulerUtil(u)
+for i in graph:
+    valuelist.extend(graph[i])
 
-printEulerTour()
+for i in range(0,d):
+    a=valuelist.count(keylist[i])
+    path_to_the_node.append(a)
+
+for i in graph:
+    node_path.append(len(graph[i]))
+
+for i in range(0,d):
+
+    if node_path[i]==0 or path_to_the_node[i]==0:
+        print("path not found !!")
+        break
+
+    elif node_path[i]-1 == path_to_the_node[i] :
+        print(i+1,". starting node")
+        printresult(keylist[i])
+        break
+    elif 1 :
+
+        for j in range(0, d):
+            if node_path[j]  == path_to_the_node[j] :
+                twin=True
+
+            else:
+
+                twin=False
+
+if twin==True:
+    print("all double")
+    printresult('1')
