@@ -2,9 +2,6 @@
 # Yazar[lar]: Gizem Bostan, Seren Öztürk
 # Youtube :
 
-# Bu kod KTÜ Bilgisayar Mühendisliği Bölümü'nde staj yapan öğrenciler tarafından hazırlanmıştır.
-# Yazar[lar]: Gizem Bostan, Seren Öztürk
-# Youtube :
 
 # seren
 
