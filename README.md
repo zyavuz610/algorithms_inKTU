@@ -18,6 +18,10 @@ Bölüm numaraları ve algoritma isimleri kitapta bahsedildiği gibidir.
   * [Hanoi Kuleleri](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm02-Temeller%20(Temel%20Algoritmalar)/recursion/hanoi.py)
   * [Üs Alma (power)](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm02-Temeller%20(Temel%20Algoritmalar)/recursion/power.py)
   * [Toplam](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm02-Temeller%20(Temel%20Algoritmalar)/recursion/toplam.py)
+* [Rasgele Sayılar](https://github.com/zyavuz610/algorithms_inKTU/tree/master/Blm02-Temeller%20(Temel%20Algoritmalar)/random_numbers)
+  * [147 Algoritması](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm02-Temeller%20(Temel%20Algoritmalar)/random_numbers/147algoritmas%C4%B1.py)
+  * [Engel Algoritması](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm02-Temeller%20(Temel%20Algoritmalar)/random_numbers/Engel_algoritmas%C4%B1.py)
+  * [Blum Blum Shub Algoritması](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm02-Temeller%20(Temel%20Algoritmalar)/random_numbers/blumblumshub.py)
 
 ## Bölüm 06 - Graf Algoritmaları
 
