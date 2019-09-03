@@ -35,5 +35,6 @@ Bölüm numaraları ve algoritma isimleri kitapta bahsedildiği gibidir. Farklı
 
 ## Bölüm 07 - Sıralama Algoritmları
 * [Insertion Sort - Binary Insertion Sort](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm07-s%C4%B1ralama/insertionSort.py)
+* [Straight Insertion Sort](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm07-s%C4%B1ralama/StraightInsertionSort.py) - [Video](https://youtu.be/iPYtzOfJoxA)
 
 
