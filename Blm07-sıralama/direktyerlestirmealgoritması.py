@@ -1,3 +1,4 @@
+# fonk. şeklinde yazılacak?
 import sys
 n = int(input())
 if (n<0):
