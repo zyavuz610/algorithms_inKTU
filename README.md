@@ -19,7 +19,7 @@ Bölüm numaraları ve algoritma isimleri kitapta bahsedildiği gibidir. Farklı
   * [Üs Alma (power)](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm02-Temeller%20(Temel%20Algoritmalar)/recursion/power.py)
   * [Toplam](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm02-Temeller%20(Temel%20Algoritmalar)/recursion/toplam.py)
 * [Rasgele Sayılar](https://github.com/zyavuz610/algorithms_inKTU/tree/master/Blm02-Temeller%20(Temel%20Algoritmalar)/random_numbers)
-  * [147 Algoritması](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm02-Temeller%20(Temel%20Algoritmalar)/random_numbers/147algoritmas%C4%B1.py) - [Video](https://www.youtube.com/watch?v=gJf1uBUuy3Q
+  * [147 Algoritması](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm02-Temeller%20(Temel%20Algoritmalar)/random_numbers/147algoritmas%C4%B1.py) - [Video](https://www.youtube.com/watch?v=gJf1uBUuy3Q)
   * [Engel Algoritması](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm02-Temeller%20(Temel%20Algoritmalar)/random_numbers/Engel_algoritmas%C4%B1.py)
   * [Blum Blum Shub Algoritması](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm02-Temeller%20(Temel%20Algoritmalar)/random_numbers/blumblumshub.py) - [Video](https://www.youtube.com/watch?v=vvqPKSaUq-w)
   
