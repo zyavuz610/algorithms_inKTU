@@ -11,7 +11,7 @@ def Euclid(a,b):
     x=a
     a=b
       
-    b= x - b
+    b= x - b  
     print(x,a,b)
     if(a<b):
         a,b=b,a
