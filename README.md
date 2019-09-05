@@ -26,8 +26,10 @@ Bölüm numaraları ve algoritma isimleri kitapta bahsedildiği gibidir. Farklı
   * [İskambil Kartları Algoritması](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm02-Temeller%20(Temel%20Algoritmalar)/random_numbers/iskambil_kartlar%C4%B1.py)
   
 ## Bölüm 04 - Sayı Teorisi
-* [Euclid Algoritması](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm04-say%C4%B1%20teorisi/euclid%20algoritmas%C4%B1.py)
-* [Eratosthenes Eleği ile Asal Sayı Bulma](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm04-say%C4%B1%20teorisi/eratosthenes%20ele%C4%9Fi%20ile%20asal%20say%C4%B1%20bulma.py)
+* [Euclid Algoritması (EBOB Bulunması)](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm04-say%C4%B1%20teorisi/euclid%20algoritmas%C4%B1.py)
+* Asal Sayıların Bulunması
+  * [Wilson Teoremi](https://github.com/zyavuz610/algorithms_inKTU/tree/master/Blm04-say%C4%B1%20teorisi)
+  * [Eratosthenes Eleği](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm04-say%C4%B1%20teorisi/eratosthenes%20ele%C4%9Fi%20ile%20asal%20say%C4%B1%20bulma.py)
 
 ## Bölüm 06 - Graf Algoritmaları
 * [Derinine Arama](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm06-graf-algoritmalar%C4%B1/derinine%20arama.py)
