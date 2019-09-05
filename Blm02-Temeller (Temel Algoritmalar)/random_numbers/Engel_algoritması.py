@@ -1,3 +1,5 @@
+# engel rasgele sayı üretme algoritması
+# https://youtu.be/nvH1LIxpDOA
 import math
 import time
 import matplotlib.pyplot as plt
@@ -14,7 +16,7 @@ if(z > 0 and a < 1 and a > 0):
     g = 0
     while(g < z):
         a = pow((a + math.pi),8)
-        a = a - int(a)
+        a = a % 1
         #print(a)
         arr.append(int(a*K % h))
         g+=1
