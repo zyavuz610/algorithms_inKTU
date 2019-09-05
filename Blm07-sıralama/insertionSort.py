@@ -1,8 +1,8 @@
 # Bu kod KTÜ Bilgisayar Mühendisliği Bölümü'nde staj yapan öğrenciler tarafından hazırlanmıştır.
 # Yazar[lar]: Gizem Bostan, Seren Öztürk
-# Youtube :
 
-#insertion sort, gizem
+#insertion sort
+
 def insertionSort(array):
     # Dizi boyunca elemanlar üzerinde tarama yapar
     for i in range(1, len(array)):
@@ -17,7 +17,7 @@ def insertionSort(array):
             j -= 1
         array[j + 1] = key
 
-# seren
+# Youtube: https://youtu.be/vvqPKSaUq-w
 def binary_insertion_sort(array):
     for i in range(1,len(array)):
         x=array[i]
