@@ -34,7 +34,7 @@ Bölüm numaraları ve algoritma isimleri kitapta bahsedildiği gibidir. Farklı
 * [Dijkstra - minimum yol - Algoritması](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm06-graf-algoritmalar%C4%B1/Dijkstra%20(minimum%20yol)%20Algoritmas%C4%B1.py)
 
 ## Bölüm 07 - Sıralama Algoritmları
-* [Insertion Sort && Binary Insertion Sort && Straight Insertion Sort](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm07-s%C4%B1ralama/insertionSort.py)
-* [Bubble Sort && Bidirectional Bubble Sort](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm07-s%C4%B1ralama/bubbleSort.py) 
+* [Insertion Sort - Binary Insertion Sort - Straight Insertion Sort](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm07-s%C4%B1ralama/insertionSort.py)
+* [Bubble Sort - Bidirectional Bubble Sort](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm07-s%C4%B1ralama/bubbleSort.py) 
 
 
