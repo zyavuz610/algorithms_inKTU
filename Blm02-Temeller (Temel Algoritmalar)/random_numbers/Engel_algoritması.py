@@ -1,5 +1,5 @@
 # engel rasgele sayı üretme algoritması
-# https://youtu.be/nvH1LIxpDOA
+# Youtube: https://youtu.be/nvH1LIxpDOA
 import math
 import time
 import matplotlib.pyplot as plt
