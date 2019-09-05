@@ -21,7 +21,7 @@ Bölüm numaraları ve algoritma isimleri kitapta bahsedildiği gibidir. Farklı
 * [Rasgele Sayılar](https://github.com/zyavuz610/algorithms_inKTU/tree/master/Blm02-Temeller%20(Temel%20Algoritmalar)/random_numbers)
   * [147 Algoritması](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm02-Temeller%20(Temel%20Algoritmalar)/random_numbers/147algoritmas%C4%B1.py)
   * [Engel Algoritması](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm02-Temeller%20(Temel%20Algoritmalar)/random_numbers/Engel_algoritmas%C4%B1.py)
-  * [Blum Blum Shub Algoritması](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm02-Temeller%20(Temel%20Algoritmalar)/random_numbers/blumblumshub.py) - [Video](https://www.youtube.com/watch?v=vvqPKSaUq-w)
+  * [Blum Blum Shub Algoritması](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm02-Temeller%20(Temel%20Algoritmalar)/random_numbers/blumblumshub.py)
   
 ## Bölüm 04 - Sayı Teorisi
 * [Euclid Algoritması](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm04-say%C4%B1%20teorisi/euclid%20algoritmas%C4%B1.py)
