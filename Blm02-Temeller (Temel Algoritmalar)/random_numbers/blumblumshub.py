@@ -1,3 +1,5 @@
+# Youtube: https://youtu.be/vvqPKSaUq-w
+
 import matplotlib.pyplot as plt
 import numpy as np
 import time
