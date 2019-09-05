@@ -3,8 +3,10 @@
 # Bu kod KTÜ Bilgisayar Mühendisliği Bölümü'nde staj yapan öğrenciler tarafından hazırlanmıştır.
 # Yazar[lar]: Nuh Aslan , Beytullah Bilek
 
+# https://gist.github.com/ozdemirburak/4821a26db048cc0972c1beee48a408de
 
-graph2 = []
+
+
 
 graph={
     'start': {'a': 4, 'b': 2}, 
@@ -14,53 +16,69 @@ graph={
     'd': {'a': 7, 'c': 4, 'b': 8, 'finish': 2}, 
     'finish': {}
     }
+def dijkstra(graph, bas, bit, visited=[], distances={}, predecessors={}):
+  """ src içinde yönlendirilen en kısa yol ağacını hesaplar
+  """
 
-infinity = float("inf")  # infinity sonsuzluk
+  if bas not in graph:
+    raise TypeError('böyle bir il yok')
+  if bit not in graph:
+    raise TypeError('böyle bir il yok')
 
-costs = {}               # cost maliyet
-costs["a"] = 4
-costs["b"] = 2
-costs["c"] = infinity
-costs["d"]= infinity
-costs["finish"] = infinity
+  if bas == bit:
+    # En kısa yolu oluşturur ve görüntüleriz
+    path = []
+    pred = bit
+    while pred != None:
+      path.append(pred)
+      #print()
+      #print("--------", pred, "-----------")
+      #print()
+      pred = predecessors.get(pred, None)  # ata dizisinde fınısh varmı varsa değerini döndür yoksa none
 
-
-processed=[]              # üzerinde işlem yapılmış düğümler
-result=[]
-
-def find_lowest_cost_node(costs):     # ucuz maliyeti buluyor
-  lowest_cost = float("inf")
-  lowest_cost_node = None
-
-  for node in costs:       # her düğüm üzerinde dön
-
-    cost = costs[node]    # node un degerlerini verir
-
-    if cost < lowest_cost and node not in processed:                # şimdiye kadarki en düşük maliyet ve işlenmemişse
-      lowest_cost = cost                                             # yeni en düşük maliyet olarak güncelle
-      lowest_cost_node = node
-  return lowest_cost_node
+    # yolu güzel bir şekilde görüntülemek için diziyi tersine çevirir.
+    readable = path[0]
+    for index in range(1, len(path)):  # tersten yazdırarak sonucu elde ederiz
+      readable = path[index] + '--->' + readable
 
 
-node = find_lowest_cost_node(costs)   # İşlenmemiş en düşük maliyetli düğümü bul
+    print("path: " + readable + ",   cost=" + str(distances[bit]))
+  else:
+    # ilk çalıştırma ise maliyeti başlatır.
+    if not visited:  # sadece basta girer
+      distances[bas] = 0
+
+    # komsuları gez
+    for neighbor in graph[bas]:
+      if neighbor not in visited:
+        new_distance = distances[bas] + graph[bas][neighbor]
+        if new_distance < distances.get(neighbor, float('inf')):
+          distances[neighbor] = new_distance
+
+          predecessors[neighbor] = bas
+
+    #print(distances, "             uzaklık")
+    #print(predecessors, "          ataları")
+    # ziyaret edildi olarak işaretle
+    visited.append(bas)  # visited uğranmamış komşulara uğruyor
+    #print(visited, "               ziyaret edilen")
+
+    # şimdi tüm komşular ziyaret edildi: tekrar
+    # 'x' mesafeli en az ziyaret edilen düğümü seçin
+    # Dijskstra'yı src = 'x' ile çalıştırın
+    unvisited = {}
+    for k in graph:
+
+      if k not in visited:
+        #print(k)
+        unvisited[k] = distances.get(k, float('inf'))
+       # print(unvisited, "                 komşu olanlara değerleri , olmayanlara sonsuz yazar")
+
+    x = min(unvisited, key=unvisited.get)
+    #print(x, "               min")
+    #print()
+    dijkstra(graph, x, bit, visited, distances, predecessors)
 
 
-while node is not None:  # Bütün düğümler işlenmişse yani none dan farklı oluncaya kadar dön diyor, döngü sona erer 
 
-  cost = costs[node]
-
-  neighbors = graph[node]
-  for n in neighbors.keys():  # Bu düğümün tüm komşularını dolaş
-    for i in processed:
-      if i !=n :
-
-        new_cost = cost + neighbors[n]     
-        if costs[n] > new_cost:           # Daha ucuz bir düğüm bulduysak, bu düğüm üzerinden ilerle
-          costs[n] = new_cost             # Bu düğüm için maliyetleri güncelle
-  processed.append(node)              # Bu düğümü işlenmiş olarak işaretle
-  node = find_lowest_cost_node(costs) # İşlenecek bir sonraki düğümü bul ve döngüye devam et burda en küçük düğümü 
-  result.append(node)
-
-
-for i in range(len(result)-1):
-    print(result[i])
+dijkstra(graph,'start', 'finish')
