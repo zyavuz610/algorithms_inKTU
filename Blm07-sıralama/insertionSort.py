@@ -1,8 +1,3 @@
-# Bu kod KTÜ Bilgisayar Mühendisliği Bölümü'nde staj yapan öğrenciler tarafından hazırlanmıştır.
-# Yazar[lar]: Gizem Bostan, Seren Öztürk
-
-#insertion sort
-
 def insertionSort(array):
     # Dizi boyunca elemanlar üzerinde tarama yapar
     for i in range(1, len(array)):
@@ -35,7 +30,17 @@ def binary_insertion_sort(array):
 
         array[left]=x
 
+# Youtube: https://youtu.be/iPYtzOfJoxA
+def straight_insertion_sort(arr):
+    for i in  range(len(arr)):
+        t = arr[i]
+        j=i
+        while j > 0 and arr[j-1] > t :
+            arr[j] = arr[j-1]
+            j-=1
+        arr[j] = t
         
 array = [12, 11, 13, 5, 6, 8, 97, 57, 22]
-insertionSort(array)
+#insertionSort(array)
+straight_insertion_sort(array)
 print(array)
