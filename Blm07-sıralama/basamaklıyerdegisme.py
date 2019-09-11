@@ -21,12 +21,13 @@ def exchange(alt,üst,basamak,b):
 def radixexchangesort(maxdd,b):
     max = maxdd
     exchange(0,len(b)-1,math.log(2,max)+1,b)
-
+print("Enter the length of the array")
 n = int(input())
 if (n<0):
     print("Error array size must positive number")
     sys.exit(1)
 b = []
+print("Enter numbers")
 for _ in range(n):
     x = float(input())
     b.append(x)
