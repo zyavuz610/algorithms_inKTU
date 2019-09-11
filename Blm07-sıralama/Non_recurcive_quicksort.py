@@ -1,4 +1,5 @@
 import sys
+print("Enter the length of the array")
 n = int(input())
 if (n<0):
     print("Error array size must positive number")
