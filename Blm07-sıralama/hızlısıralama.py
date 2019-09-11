@@ -1,9 +1,11 @@
 import sys
+print("Enter the length of the array")
 n = int(input())
 if (n<0):
     print("Error array size must positive number")
     sys.exit(1)
 b = []
+print("Enter numbers")
 for _ in range(n):
     x = float(input())
     b.append(x)
@@ -32,9 +34,7 @@ while kontrol == 1 or altdizi >= 0:
                 üsts -= 1
             if(alts <= üsts):
                 if(alts != üsts):
-                    üsts -= alts
-                    alts += üsts
-                    üsts = alts - üsts
+                   b[üsts],b[alts] = b[alts],b[üsts]
                 alts += 1
                 üsts -= 1
         if(alts <üst):
@@ -43,4 +43,3 @@ while kontrol == 1 or altdizi >= 0:
             a[altdizi][1] = üst
         üst = üsts
 print(b)
-print(a)
