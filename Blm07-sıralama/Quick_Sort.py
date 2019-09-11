@@ -19,12 +19,13 @@ def hs(b,alt,üst):
         hs(b,alt,üsts)
     if(üst>alts):
         hs(b,alts,üst)
-
+print("Enter the length of the array")
 n = int(input())
 if (n<0):
     print("Error array size must positive number")
     sys.exit(1)
 b = []
+
 for _ in range(n):
     x = float(input())
     b.append(x)
