@@ -1,21 +1,20 @@
 import sys
 import math
 def getradix(number,radix):
-    return int((number>>radix)&0x01)
+    return (int(number)>>int(radix))&0x01
 def exchange(alt,üst,basamak,b):
     if(üst > alt and basamak >= 0):
         alts=alt
         üsts=üst
         kontrol2 = 1
-        while alts < üsts:
-           while getradix(b[alts],basamak)==0 and alts <üsts:
+        while kontrol2== 1 or alts < üsts:
+           kontrol2 = 0
+           while getradix(b[alts],basamak)==0.0 and alts <üsts:
                alts+=1
-           while getradix(b[üsts],basamak)==1 and alts <üsts:
+           while getradix(b[üsts],basamak)==1.0 and alts <üsts:
                üsts-=1
-           üsts -= alts
-           alts += üsts
-           üsts = alts - üsts
-        if(getradix(b[üst],basamak)==0):
+           b[alts],b[üsts] = b[üsts],b[alts]
+        if(getradix(b[üst],basamak)==0.0):
             üsts+=1
         exchange(alt, üsts - 1, basamak - 1, b)
         exchange(alts, üst, basamak - 1, b)
@@ -32,6 +31,7 @@ for _ in range(n):
     x = float(input())
     b.append(x)
 print(b)
-maxdd = int(input())
+#maxdd dizinin uzunlugudur.
+maxdd = len(b)
 radixexchangesort(maxdd,b)
 print(b)
