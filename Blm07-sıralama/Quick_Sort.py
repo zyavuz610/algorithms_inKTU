@@ -25,7 +25,7 @@ if (n<0):
     print("Error array size must positive number")
     sys.exit(1)
 b = []
-
+print("Enter numbers")
 for _ in range(n):
     x = float(input())
     b.append(x)
