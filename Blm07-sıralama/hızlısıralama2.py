@@ -13,7 +13,7 @@ def hs(b,alt,üst):
         if(alts <= üsts):
             if(alts != üsts):
                 b[üsts],b[alts] = b[alts],b[üsts]
-                üsts-=1;
+                üsts-=1
                 alts+=1
     if(alt<üsts):
         hs(b,alt,üsts)
