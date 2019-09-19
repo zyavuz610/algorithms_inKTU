@@ -1,3 +1,4 @@
+import sys
 def merge(alt,üst,b):
     if(alt>=üst):
         return 0
@@ -16,11 +17,12 @@ def merge(alt,üst,b):
             k = ilküsts - 1
             while k >= alts:
                 b[k + 1] = b[k]
-                b[alts] = t
-                alts += 1
-                sonalts += 1
-                ilküsts += 1
                 k -= 1
+            b[alts] = t
+            alts += 1
+            sonalts += 1
+            ilküsts += 1
+
 print("Enter the length of the array")
 n = int(input())
 if (n<0):
