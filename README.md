@@ -27,7 +27,7 @@ Bölüm numaraları ve algoritma isimleri kitapta bahsedildiği gibidir. Farklı
   * [Zar Algoritması](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm02-Temeller%20(Temel%20Algoritmalar)/random_numbers/rastgelesayi_uretimi(zar_algoritmas%C4%B1).py)
   
 ## Bölüm 04 - Sayı Teorisi
-* [Euclid (ve Genişletilmiş Euclid) Algoritması (EBOB Bulunması)](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm04-say%C4%B1%20teorisi/euclid%20algoritmas%C4%B1.py)
+* [Euclid Algoritması (EBOB Bulunması) - (ve Genişletilmiş Euclid)](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm04-say%C4%B1%20teorisi/euclid%20algoritmas%C4%B1.py)
 * **Asal Sayıların Bulunması**
   * [Wilson Teoremi](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm04-say%C4%B1%20teorisi/wilson%20teoremi%20ile%20asal%20say%C4%B1%20bulma.py)
   * [Eratosthenes Eleği](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm04-say%C4%B1%20teorisi/eratosthenes%20ele%C4%9Fi%20ile%20asal%20say%C4%B1%20bulma.py)
