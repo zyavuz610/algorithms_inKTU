@@ -24,6 +24,7 @@ Bölüm numaraları ve algoritma isimleri kitapta bahsedildiği gibidir. Farklı
   * [Blum Blum Shub Algoritması](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm02-Temeller%20(Temel%20Algoritmalar)/random_numbers/blumblumshub.py)
   * [Lineer Benzerlik Algoritması](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm02-Temeller%20(Temel%20Algoritmalar)/random_numbers/LineerBenzerlikAlgoritmas%C4%B1.py)
   * [İskambil Kartları Algoritması](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm02-Temeller%20(Temel%20Algoritmalar)/random_numbers/iskambil_kartlar%C4%B1.py)
+  * [Zar Algoritması](Blm02-Temeller (Temel Algoritmalar)/random_numbers/rastgelesayi_uretimi(zar_algoritması).py)
   
 ## Bölüm 04 - Sayı Teorisi
 * [Euclid Algoritması (EBOB Bulunması)](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm04-say%C4%B1%20teorisi/euclid%20algoritmas%C4%B1.py)
