@@ -12,7 +12,7 @@ def insertionSort(array):
             j -= 1
         array[j + 1] = key
 
-# Youtube: https://youtu.be/vvqPKSaUq-w
+# Youtube: https://youtu.be/NJQOGp7L-_k
 def binary_insertion_sort(array):
     for i in range(1,len(array)):
         x=array[i]
