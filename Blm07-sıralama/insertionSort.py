@@ -1,3 +1,4 @@
+# https://youtu.be/FrSElf7uglE
 def insertionSort(array):
     # Dizi boyunca elemanlar üzerinde tarama yapar
     for i in range(1, len(array)):
