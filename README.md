@@ -8,7 +8,7 @@ Bölüm numaraları ve algoritma isimleri kitapta bahsedildiği gibidir. Farklı
 
 # İçindekiler
 
-## Bölüm 02 - Temeller
+## Bölüm 02 - Temel Algoritmalar
 * [Recursive - Öz Yinelemeli Algoritmalar](https://github.com/zyavuz610/algorithms_inKTU/tree/master/Blm02-Temeller%20(Temel%20Algoritmalar)/recursion)
   * [Faktöryel](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm02-Temeller%20(Temel%20Algoritmalar)/recursion/Factorial.py)
   * [Fibonacci](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm02-Temeller%20(Temel%20Algoritmalar)/recursion/Fibonacci.py), [İteratif Fibonacci](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm02-Temeller%20(Temel%20Algoritmalar)/recursion/fibonacci-iterative.py)
@@ -28,7 +28,7 @@ Bölüm numaraları ve algoritma isimleri kitapta bahsedildiği gibidir. Farklı
   
 ## Bölüm 04 - Sayı Teorisi
 * [Euclid Algoritması (EBOB Bulunması)](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm04-say%C4%B1%20teorisi/euclid%20algoritmas%C4%B1.py)
-* Asal Sayıların Bulunması
+* **Asal Sayıların Bulunması**
   * [Wilson Teoremi](https://github.com/zyavuz610/algorithms_inKTU/tree/master/Blm04-say%C4%B1%20teorisi)
   * [Eratosthenes Eleği](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm04-say%C4%B1%20teorisi/eratosthenes%20ele%C4%9Fi%20ile%20asal%20say%C4%B1%20bulma.py)
 
