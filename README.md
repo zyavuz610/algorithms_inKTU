@@ -37,10 +37,11 @@ Bölüm numaraları ve algoritma isimleri kitapta bahsedildiği gibidir. Farklı
 * [Enine Arama](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm06-graf-algoritmalar%C4%B1/enine%20arama.py)
 * [Fluery Algoritması-Euler Yolları](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm06-graf-algoritmalar%C4%B1/fleury%20algoritmas%C4%B1.py)
 * [Çinli Postacı Problemi](Blm06-graf-algoritmalar%C4%B1/%C3%87inli%20Postac%C4%B1%20Problemi.py)
-* [Dijkstra (minimum yol) Algoritması](Blm06-graf-algoritmalar%C4%B1/Dijkstra%20(minimum%20yol)%20Algoritmas%C4%B1.py)
+* **Minimum Yol Bulma**
+  * [Dijkstra (minimum yol) Algoritması](Blm06-graf-algoritmalar%C4%B1/Dijkstra%20(minimum%20yol)%20Algoritmas%C4%B1.py)
   * [Şehirler arası Minimum Yol](Blm06-graf-algoritmalar%C4%B1/Dijkstra%20ile%20%C5%9Eehirler%20Aras%C4%B1%20Minimum%20Yol.py)
-* [Kruskal Minimum Yol Algoritması](Blm06-graf-algoritmaları/Kruskal_minimum_yol.py)
-* [Benzinli Minimum Yol Problemi](Blm06-graf-algoritmaları/benzinli_minimum_yol.py)
+  * [Kruskal Minimum Yol Algoritması](Blm06-graf-algoritmaları/Kruskal_minimum_yol.py)
+  * [Benzinli Minimum Yol Problemi](Blm06-graf-algoritmaları/benzinli_minimum_yol.py)
 * [64 At Problemi](Blm06-graf-algoritmaları/64_at_problemi.py)
 
 ## Bölüm 07 - Sıralama Algoritmları
