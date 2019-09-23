@@ -1,4 +1,3 @@
-# Youtube: https://youtu.be/RxZW0XOeLbo
 import math
 import matplotlib.pyplot as plt
 import numpy as np
@@ -6,28 +5,28 @@ import time
 fig_size = [19.2,10.8]
 plt.figure(figsize=fig_size)
 arr = []
-a = math.pi
+a = time.time()
 z = 60000
-h = 2
 k = 6
 b = 0
+arr = []
 if(z > 0):
     g = 0
     while(g < z):
-        a = (a * time.time()%1001) + time.time()%97
-        a = (a % k) + 1
-        b += int(a)
+        a = (a*25173 + 13849) % 32768
+        c = int(((a / 32768)* k) + 1)
+        b += c
         g += 1
-        print(a)
-        arr.append(int(a*100000000000) % h)
+        arr.append(c)
+        #print(c)
     print("toplam puan")
     print(b)
 elif(z <= 0):
     print("zar atma sayısı 1 ve ya daha büyük olmalıdır")
-z = np.zeros(h)
+z = np.zeros(k+1)
 for i in arr:
     z[i] = z[i] + 1
 print(z)
-x_pos = np.arange(h)
+x_pos = np.arange(k+1)
 plt.bar(x_pos,z)
 plt.show()
