@@ -31,6 +31,10 @@ Bölüm numaraları ve algoritma isimleri kitapta bahsedildiği gibidir. Farklı
 * **Asal Sayıların Bulunması**
   * [Wilson Teoremi](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm04-say%C4%B1%20teorisi/wilson%20teoremi%20ile%20asal%20say%C4%B1%20bulma.py)
   * [Eratosthenes Eleği](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm04-say%C4%B1%20teorisi/eratosthenes%20ele%C4%9Fi%20ile%20asal%20say%C4%B1%20bulma.py)
+  * [Asallık Testi](Blm04-sayı%20teorisi\AsallikTesti.py)
+  * [Fermat-Euler Teoremi](Blm04-sayı%20teorisi\fermat-euler-asallik-testi.py)
+  * [Mersenne Asal Sayılar](Blm04-sayı%20teorisi\mersenne_asal_sayilar.py)
+  * [Sezgisel Asallık Testi](Blm04-sayı%20teorisi\sezgisel_asallik_testi.py)
 
 ## Bölüm 06 - Graf Algoritmaları
 * [Derinine Arama](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm06-graf-algoritmalar%C4%B1/derinine%20arama.py)
