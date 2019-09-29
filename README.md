@@ -1,6 +1,6 @@
 # Algoritmalar
 
-Bu proje Prof. Dr. Vasif Vagifoğlu NABİYEV'in "Teoriden Uygulamalara ALGORİTMALAR" isimli kitabındaki algoritmaların python dili ile kodlanmasını içermektedir. Öğrencilerimizin ve akademisyenlerimizin katkıları ile oluşturulmaktadır.
+Bu proje Prof. Dr. Vasif Vagifoğlu NABİYEV'in "Teoriden Uygulamalara ALGORİTMALAR" isimli kitabındaki algoritmaların python dili ile kodlanmasını içermektedir. Öğrencilerimizin ve akademisyenlerimizin katkıları ile oluşturulmaktadır. Kaynak kodlarda yorumlamadan kaynaklanan kısmi farklılıklar olabilir.
 
 Bölüm numaraları ve algoritma isimleri kitapta bahsedildiği gibidir. Farklı baskılarda farklılıklar olabilir.
 
@@ -62,5 +62,26 @@ Bölüm numaraları ve algoritma isimleri kitapta bahsedildiği gibidir. Farklı
   * Straight Insertion Sort]
 * [Bubble Sort](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm07-s%C4%B1ralama/bubbleSort.py)  
   * Bidirectional Bubble Sort
+* [Binary Tree Sort](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm07-s%C4%B1ralama/BinaryTreeSort.py)
+* [Merge Sort](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm07-s%C4%B1ralama/MergeSort.py)
+  * [Buttom Up Merge Sort](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm07-s%C4%B1ralama/BottomUpMergeSort.py)
+  * [Stable Merge Sort](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm07-s%C4%B1ralama/StableMergeSort.py)
+* [Distribution Sort](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm07-s%C4%B1ralama/DistributionSort.py)
+* [Elevator Sort](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm07-s%C4%B1ralama/ElevatorSort.py)
+* [Quick Sort](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm07-s%C4%B1ralama/Quick_Sort.py)
+  * [Enhanced Quick Sort](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm07-s%C4%B1ralama/EnhancedQuickSort.py)
+  * [Non recursive quick sort](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm07-s%C4%B1ralama/Non_recurcive_quicksort.py)
+* [Heap Sort](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm07-s%C4%B1ralama/HeapSort.py)
+* [Insertion Sort](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm07-s%C4%B1ralama/insertionSort.py)
+* [Odd-Even Transposition Sort](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm07-s%C4%B1ralama/odd-even%20transpositionSort.py)
+* [Pigeon Sort](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm07-s%C4%B1ralama/PigeonSort.py)
+* [Radix Sort](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm07-s%C4%B1ralama/RadixSort.py)
+  * [Radix Exchange Sort](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm07-s%C4%B1ralama/Radix_exchange(basamakl%C4%B1yerdegisme).py)
+* [Selection Sort](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm07-s%C4%B1ralama/selectionsort.py)
+* [Shaker Sort](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm07-s%C4%B1ralama/ShakerSort.py)
+* [Shell Sort](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm07-s%C4%B1ralama/ShellSort.py)
+* [Topological Sort](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm07-s%C4%B1ralama/TopologicalSort.py)
+
+
 
 
