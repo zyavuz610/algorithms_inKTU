@@ -52,9 +52,15 @@ Bölüm numaraları ve algoritma isimleri kitapta bahsedildiği gibidir. Farklı
 * **Minimum Yol Bulma**
   * [Dijkstra (minimum yol) Algoritması](Blm06-graf-algoritmalar%C4%B1/Dijkstra%20(minimum%20yol)%20Algoritmas%C4%B1.py)
   * [Şehirler arası Minimum Yol](Blm06-graf-algoritmalar%C4%B1/Dijkstra%20ile%20%C5%9Eehirler%20Aras%C4%B1%20Minimum%20Yol.py)
-  * [Kruskal Minimum Yol Algoritması](Blm06-graf-algoritmaları/Kruskal_minimum_yol.py)
   * [Benzinli Minimum Yol Problemi](Blm06-graf-algoritmaları/benzinli_minimum_yol.py)
+  * [Belman-Ford Algoritması](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm06-graf-algoritmalar%C4%B1/belman-ford-minimum-yol.py)
+* **Minimum Açılım Ağacı Algoritmaları**
+  * [Kruskal Minimum Yol Algoritması](Blm06-graf-algoritmaları/Kruskal_minimum_yol.py)
+  * [Prim Algoritması](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm06-graf-algoritmalar%C4%B1/prim-minimum-acilim-agaci.py)
+  * [Boruvka-Sollin Algoritması](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm06-graf-algoritmalar%C4%B1/boruvka-sollin-minimum-acilim.py)
+  * [Reverse-Delete Algoritması](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm06-graf-algoritmalar%C4%B1/reverse-delete_acilim_agaci.py)
 * [64 At Problemi](Blm06-graf-algoritmaları/64_at_problemi.py)
+* [Renkleme (Welch-Powel) Algoritması](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm06-graf-algoritmalar%C4%B1/graf-renkleme.py)
 
 ## Bölüm 07 - Sıralama Algoritmları
 * [Insertion Sort](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm07-s%C4%B1ralama/insertionSort.py)
