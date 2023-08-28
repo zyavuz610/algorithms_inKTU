@@ -45,7 +45,7 @@ Bölüm numaraları ve algoritma isimleri kitapta bahsedildiği gibidir. Farklı
   * [Sezgisel Asallık Testi](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm04-say%C4%B1%20teorisi/sezgisel_asallik_testi.py)
 
 ## Bölüm 06 - Graf Algoritmaları
-* [Java Dili Kodları](Blm06-graf-algoritmaları\java\README.md) - _Yazar:Emirhan Yıldız_
+* [Java Dili Kodları](Blm06-graf-algoritmaları/java/README.md) - _Yazar:Emirhan Yıldız_
 * Python Dili Kodları
   * [Derinine Arama](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm06-graf-algoritmalar%C4%B1/derinine%20arama.py)
   * [Enine Arama](https://github.com/zyavuz610/algorithms_inKTU/blob/master/Blm06-graf-algoritmalar%C4%B1/enine%20arama.py)
